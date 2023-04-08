@@ -75,12 +75,16 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 80px;
-  background-color: #e3e6f3;
+  background-color: #ffedee;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   position: sticky;
   top: 0;
   left: 0;
   z-index: 7;
+}
+
+#header .logo {
+  width: 80px;
 }
 
 #navbar {
@@ -129,10 +133,10 @@ body {
 }
 
 #hero {
-  background-image: url("./assets/hero4.png");
+  background-image: url("./assets/hero6.jpg");
   height: 90vh;
   width: 100%;
-  background-position: top 25% right 0;
+  background-position: top 5% right 0;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -144,19 +148,22 @@ body {
 
 #hero h4 {
   padding-bottom: 15px;
+  color: #e8e8e8;
 }
 
+#hero p {
+  color: #e6dbd8;
+}
+
+#hero h2,
 #hero h1 {
-  color: #088178;
+  color: #fcfcfc;
 }
 
 #hero button {
-  background-image: url("./assets/button.png");
-  background-color: transparent;
-  color: #088178;
-  border: 0;
-  padding: 14px 80px 14px 65px;
-  background-repeat: no-repeat;
+  background-color: #088178;
+  color: #fff;
+
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
@@ -476,6 +483,7 @@ footer .col {
 
 footer .logo {
   margin-bottom: 30px;
+  width: 80px;
 }
 
 footer h4 {
